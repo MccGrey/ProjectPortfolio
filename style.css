@@ -390,3 +390,58 @@ header {
 .resume__right.about li h5 {
     color: var(--color-gray-900);
 }
+
+/* ====================Projects============================ */
+
+.project__categories {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 3rem 0 2.5rem;
+    align-items: center;
+
+}
+
+.projects__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    gap: 4rem;
+}
+
+.project {
+    padding-bottom: 1.5rem;
+    border: .5rem solid var(--color-gray-100);
+    background: var(--color-gray-100);
+    transition: var(--transition);
+}
+
+.project:hover {
+    background:transparent;
+}
+
+.project__image {
+    max-height: 12rem;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.project h5 {
+    padding: 0 1.2rem;
+}
+
+.project p {
+    margin: .5rem 0 1.5rem;
+    padding: 0 1.2rem;
+    font-size: .8rem;
+}
+
+.project__cta {
+    display: flex;
+    gap: 1rem;
+    padding:0 1.2rem;
+}
+
+.project__cta a {
+    font-size: 1.3rem;
+    padding: .6rem 1rem;
+}
