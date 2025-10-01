@@ -113,6 +113,7 @@ const skillsContent = `<h4>Skills</h4>
                         <li><img src="./assets/Davinci.jpg" alt="davinci" ></li>
                         <li><img src="./assets//Photoshop.jpg" alt="photoshop" ></li>
                         <li><img src="./assets/Sketchbook.jpg" alt="sketchbook" ></li>
+                        <li><img src="./assets/canva1.jpeg" alt="canva" ></li>
                     
                     </ul>`
 
