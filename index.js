@@ -225,3 +225,27 @@ const swiper = new Swiper('.swiper', {
   }
 
 });
+
+
+
+
+
+
+
+
+//========================FAQ========================
+const faqs = document.querySelectorAll('.faqs__item');
+
+faqs.forEach(faq => {
+    faq.addEventListener('click', () => {
+       const p = faq.querySelector('p');
+       const icon = faq.querySelector('.faq__icon');
+       if(p.classList.contains('show')){
+        p.classList.remove('show')
+        icon.innerHTML = `<i class="uil uil-angle-down"></i>`
+       } else {
+        p.classList.add('show')
+        icon.innerHTML = `<i class="uil uil-angle-up"></i>`
+       }
+    })
+})

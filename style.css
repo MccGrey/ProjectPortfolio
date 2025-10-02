@@ -501,3 +501,42 @@ header {
 .swiper-pagination-bullet {
     background: var(--color-primary);
 }
+
+
+/* ====================FAQs============================ */
+.faqs__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 5rem;
+    align-items: flex-start;
+    margin-top: 4rem;
+}
+
+.faqs__item {
+    background: var(--color-gray-100);
+    padding: 0.5rem;
+    border-left: .5rem solid var(--color-primary);
+    cursor: pointer;
+}
+
+.faqs__item div {
+    display: grid;
+    grid-template-columns: 3rem auto;
+    align-items: center;
+}
+
+.faqs__item i {
+    font-size: 1.5rem;
+}
+
+.faqs__item p {
+    margin-top: .7rem;
+    display: none;
+}
+
+/*style for js*/
+
+p.show {
+    display: block;
+    
+}
