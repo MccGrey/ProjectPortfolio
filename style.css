@@ -538,5 +538,57 @@ header {
 
 p.show {
     display: block;
-    
+}
+
+/*======contact ======*/
+.contact__container {
+    width: 36%;
+}
+
+.contact__options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    margin-bottom: 5rem;
+    gap: 1.2rem;
+    margin-inline: auto;
+}
+
+.contact__options a {
+    background: var(--color-gray-0);
+    color: var(--color-primary);
+    padding: 1.2rem;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.contact__options a:hover {
+    background: var(--color-primary-variant);
+    color: var(--color-gray-900);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+form input, form textarea {
+   background: var(--color-gray-0);
+    padding: 1.2rem;
+    resize: none;
+    color: var(--color-gray-900);
+}
+
+form button {
+    width: fit-content;
+    border: 0;
+    background: var(--color-primary);
+    padding: 0.8rem 2rem;
 }
