@@ -413,7 +413,20 @@ header {
     border: .5rem solid var(--color-gray-100);
     background: var(--color-gray-100);
     transition: var(--transition);
+    animation: animateProject 1.5s ease forwards;
 }
+
+/* animation when using project filter */
+
+@keyframes animateProject {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1; }
+    }
+
+
+
 
 .project:hover {
     background:transparent;

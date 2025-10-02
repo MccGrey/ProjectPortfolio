@@ -187,3 +187,15 @@ aboutBtn.addEventListener('click', () => {
     educationBtn.classList.remove('primary')
 
 })
+
+
+//========================MIXITUP PROJECTS========================
+
+const containerEl = document.querySelector('.projects__container');
+let mixer = mixitup(containerEl, {
+    animation: {
+        enable: false,
+    }
+});
+
+mixer.filter('*')

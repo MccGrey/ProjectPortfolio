@@ -82,20 +82,20 @@
 
 <!--==========================PROJECTS===============================-->
 
-<section class="projects" id="projects">
+<section class="projects" id="project">
     <h1>Recent projects</h1>
     <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, exercitationem.
     </p>
     <menu class="project__categories">
-        <button class="btn active">All</button>
-        <button class="btn">Graphics design</button>
-        <button class="btn">Video editing</button>
-        <button class="btn">Motion design</button>
-        <button class="btn">Digital art</button>
+        <button class="btn primary" data-filter="*">All</button>
+        <button class="btn" data-filter=".graphics">Graphics design</button>
+        <button class="btn" data-filter=".video">Video editing</button>
+        <button class="btn" data-filter=".motion">Motion design</button>
+        <button class="btn" data-filter=".digital">Digital art</button>
     </menu>
     <div class="container projects__container">
-        <article class="project">
+        <article class="project mix graphics" data-order="1">
             <div class="project__image">
                 <img src="./assets/uncle5-1.jpg" alt="project image">
             </div>
@@ -110,7 +110,7 @@
             </div>
         </article>
 
-         <article class="project">
+         <article class="project mix video" data-order="2">
             <div class="project__image">
                 <img src="./assets/uncle5-4.jpg" alt="project image">
             </div>
@@ -125,7 +125,7 @@
             </div>
         </article>
 
-         <article class="project">
+         <article class="project mix motion" data-order="3">
             <div class="project__image">
                 <img src="./assets/uncle5-2.jpg" alt="project image">
             </div>
@@ -140,7 +140,7 @@
             </div>
         </article>
 
-         <article class="project">
+         <article class="project mix digital" data-order="4">
             <div class="project__image">
                 <img src="./assets/uncle5-3.jpg" alt="project image">
             </div>
@@ -155,7 +155,7 @@
             </div>
         </article>
 
-         <article class="project">
+         <article class="project mix graphics" data-order="5">
             <div class="project__image">
                 <img src="./assets/uncle5-4.jpg" alt="project image">
             </div>
@@ -171,7 +171,7 @@
         </article>
     </div>
 </section>
-
+<script src="./mix/dist/mixitup.min.js"></script>
 <script src="./index.js"></script>
 </body>
 </html>
