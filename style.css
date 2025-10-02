@@ -30,8 +30,33 @@
     --transition: all 350ms ease;
 } 
 
+.dark-theme-variables {
+    --color-gray-0: #0e0d14;
+    --color-gray-50: #211f2e;
+    --color-gray-100: #252233;
+    --color-gray-200: #545454;
+    --color-gray-300: #7b7b7b;
+    --color-gray-400: #919191;
+    --color-gray-500: #a1a1a1;
+    --color-gray-600: #c0c0c0;
+    --color-gray-700: #e6e5e5;
+    --color-gray-800: #fafafa;
+    --color-gray-900: #fff;
+}
+
+
 html {
     scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    background: rgba(11, 48, 185, 0.25);
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: 10px;
 }
 
 body{
@@ -55,7 +80,7 @@ img {
     object-fit: cover;
 }
 
-h1. h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
     color: var(--color-gray-900);
     font-weight: 900;

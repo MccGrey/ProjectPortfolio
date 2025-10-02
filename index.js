@@ -249,3 +249,10 @@ faqs.forEach(faq => {
        }
     })
 })
+
+
+//========================DARK THEME ============
+const themeToggler = document.querySelector('.nav__theme-btn');
+themeToggler.addEventListener('click', () => {
+    document.body.classList.toggle('dark-theme-variables')
+})
