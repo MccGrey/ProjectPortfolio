@@ -424,9 +424,15 @@ header {
     justify-content: center;
     margin: 3rem 0 2.5rem;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
+.project__categories button.mixitup-control-active {
+    background: var(--color-primary);
+    color: white;
+    
+}
 .projects__container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
@@ -616,4 +622,77 @@ form button {
     border: 0;
     background: var(--color-primary);
     padding: 0.8rem 2rem;
+}
+
+
+
+/*================MEDIA QUERIES ( small screens)================*/
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 1rem;
+    }
+    .container {
+        width: var(--container-w-sm);
+    }
+
+    section > h1, section > p {
+        width: var(--container-w-sm);
+    }
+    nav {
+        height: 4rem;
+    }
+
+    .header__container {
+        width: 90%;
+    }
+
+    .header__container p {
+        margin-top: .4rem;
+    }
+
+    .header__socials {
+        display: none;
+    }
+
+    .resume__container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    
+    .resume__left menu {
+        gap: .7rem;
+    }
+
+    
+    .resume__right.skills ul {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.2rem;
+    }
+
+    
+
+    .resume__right.about ul {
+        grid-template-columns: 1fr;
+    }
+
+    .project__categories{
+        margin-top: 2.3rem;
+    }
+
+    .projects__container{
+        gap: 1.5rem;
+    }
+
+    .swiper-wrapper {
+        margin-top: 3rem;
+    }
+
+    .faqs__container {
+        grid-template-columns: 1fr;
+    }
+    
+    form button {
+        width: 100%;
+    }
 }

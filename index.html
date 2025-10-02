@@ -18,6 +18,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+<!------------------------- AOS ANIMATION---------------------->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
 <!------------------------- CUSTOM CSS---------------------->
    <link rel="stylesheet" href="style.css">
     
@@ -46,14 +50,14 @@
 
 <header>
     <div class="container header__container">
-        <div class="header__image">
+        <div class="header__image" data-aos="fade-up" data-aos-delay="800">
             <img src="./assets/grey.png" alt="header image">
         </div>
-        <h5>Hi, I'm Grey</h5>
-        <h1>Video Editor,<span>Motion designer</span> <br/>Based in Abuja</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.accus, sint labore?</p>
-            <div class="header__cta">
-                <a href="#projects" class="btn">My projects</a>
+        <h5 data-aos="fade-in">Hi, I'm Grey</h5>
+        <h1 data-aos="fade-in">Creative, <span>Motion designer</span> <br/>Based in Abuja</h1>
+        <p data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit.accus, sint labore?</p>
+            <div class="header__cta" data-aos="fade-in">
+                <a href="#project" class="btn">My projects</a>
                 <a href="#contact" class="btn primary">Hire me</a>
                 
             </div>
@@ -70,7 +74,7 @@
 
 <!--===================RESUMEE===========================-->
 <section id="resume">
-    <div class="container resume__container">
+    <div class="container resume__container" data-aos="fade-in" data-aos-delay="200">
         <div class="resume__left">
             <h1>Why hire me?</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, praesentium.</p>
@@ -95,13 +99,13 @@
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, exercitationem.
     </p>
     <menu class="project__categories">
-        <button class="btn primary" data-filter="*">All</button>
+        <button class="btn" data-filter="*">All</button>
         <button class="btn" data-filter=".graphics">Graphics design</button>
         <button class="btn" data-filter=".video">Video editing</button>
         <button class="btn" data-filter=".motion">Motion design</button>
         <button class="btn" data-filter=".digital">Digital art</button>
     </menu>
-    <div class="container projects__container">
+    <div class="container projects__container" data-aos="fade-in" data-aos-delay="200">
         <article class="project mix graphics" data-order="1">
             <div class="project__image">
                 <img src="./assets/uncle5-1.jpg" alt="project image">
@@ -117,7 +121,7 @@
             </div>
         </article>
 
-         <article class="project mix video" data-order="2">
+         <article class="project mix graphics" data-order="2">
             <div class="project__image">
                 <img src="./assets/uncle5-4.jpg" alt="project image">
             </div>
@@ -132,7 +136,7 @@
             </div>
         </article>
 
-         <article class="project mix motion" data-order="3">
+         <article class="project mix graphics" data-order="3">
             <div class="project__image">
                 <img src="./assets/uncle5-2.jpg" alt="project image">
             </div>
@@ -147,7 +151,7 @@
             </div>
         </article>
 
-         <article class="project mix digital" data-order="4">
+         <article class="project mix graphics" data-order="4">
             <div class="project__image">
                 <img src="./assets/uncle5-3.jpg" alt="project image">
             </div>
@@ -176,6 +180,213 @@
                 
             </div>
         </article>
+
+        <article class="project mix digital" data-order="6">
+            <div class="project__image">
+                <img src="./assets/digitalart2.jpeg" alt="project image">
+            </div>
+            <h5>Project One Title (Graphics design)</h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, error.
+            </p>
+            <div class="project__cta">
+                <a href="https://drive.google.com/file/d/13nnRc3nAVzggFfYn1lc-YUL-d4KKw26H/view?usp=sharing" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                <a href="https://drive.google.com/file/d/13nnRc3nAVzggFfYn1lc-YUL-d4KKw26H/view?usp=sharing" class="btn" target="_blank"><i class="uil uil-link"></i></a>
+                
+            </div>
+        </article>
+
+        <article class="project mix digital" data-order="7">
+            <div class="project__image">
+                <img src="./assets/digitalart3.jpeg" alt="project image">
+            </div>
+            <h5>Project One Title (Graphics design)</h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, error.
+            </p>
+            <div class="project__cta">
+                <a href="https://drive.google.com/file/d/1bgkul3XexpvnG1K1vy5K78_SWy0x4bW1/view?usp=sharing" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                <a href="https://drive.google.com/file/d/1bgkul3XexpvnG1K1vy5K78_SWy0x4bW1/view?usp=sharing" class="btn" target="_blank"><i class="uil uil-link"></i></a>
+                
+            </div>
+        </article>
+
+        <article class="project mix digital" data-order="8">
+            <div class="project__image">
+                <img src="./assets/digitalart1.jpg" alt="project image">
+            </div>
+            <h5>Project One Title (Graphics design)</h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, error.
+            </p>
+            <div class="project__cta">
+                <a href="https://drive.google.com/file/d/1qj1T5LeyCmEWd-dst2kqJx1YplaftpzW/view?usp=sharing" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                <a href="https://drive.google.com/file/d/1qj1T5LeyCmEWd-dst2kqJx1YplaftpzW/view?usp=sharing" class="btn" target="_blank"><i class="uil uil-link"></i></a>
+                
+            </div>
+        </article>
+
+        <article class="project mix digital" data-order="9">
+            <div class="project__image">
+                <img src="./assets/digitalart4.jpeg" alt="project image">
+            </div>
+            <h5>Project One Title (Graphics design)</h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, error.
+            </p>
+            <div class="project__cta">
+                <a href="https://drive.google.com/file/d/1cqY8pImRCICnYyd0xT73PNLGc-tUWx3m/view?usp=sharing" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                <a href="https://drive.google.com/file/d/1cqY8pImRCICnYyd0xT73PNLGc-tUWx3m/view?usp=sharing" class="btn" target="_blank"><i class="uil uil-link"></i></a>
+                
+            </div>
+        </article>
+
+        <article class="project mix digital" data-order="10">
+            <div class="project__image">
+                <img src="./assets/digitalart5.jpeg" alt="project image">
+            </div>
+            <h5>Project One Title (Graphics design)</h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, error.
+            </p>
+            <div class="project__cta">
+                <a href="https://drive.google.com/file/d/1-S6zJN6E9QnBOBLLX1VVbuNSuNFZ0p_P/view?usp=drive_link" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                <a href="https://drive.google.com/file/d/1-S6zJN6E9QnBOBLLX1VVbuNSuNFZ0p_P/view?usp=drive_link" class="btn" target="_blank"><i class="uil uil-link"></i></a>
+                
+            </div>
+        </article>
+
+        <article class="project mix digital" data-order="11">
+            <div class="project__image">
+                <img src="./assets/digitalart6.jpeg" alt="project image">
+            </div>
+            <h5>Project One Title (Graphics design)</h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, error.
+            </p>
+            <div class="project__cta">
+                <a href="https://drive.google.com/file/d/1lJwmyWyHEsy1CtEvejohD8cWS2GNCk8s/view?usp=sharing" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                <a href="https://drive.google.com/file/d/1lJwmyWyHEsy1CtEvejohD8cWS2GNCk8s/view?usp=sharing" class="btn" target="_blank"><i class="uil uil-link"></i></a>
+                
+            </div>
+        </article>
+
+        <article class="project mix digital" data-order="12">
+            <div class="project__image">
+                <img src="./assets/digitalart7.jpeg" alt="project image">
+            </div>
+            <h5>Project One Title (Graphics design)</h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, error.
+            </p>
+            <div class="project__cta">
+                <a href="https://drive.google.com/file/d/1YVEyW75DkMEEhEZ8m4tIj-XbjWNgucAn/view?usp=sharing" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                <a href="https://drive.google.com/file/d/1YVEyW75DkMEEhEZ8m4tIj-XbjWNgucAn/view?usp=sharing" class="btn" target="_blank"><i class="uil uil-link"></i></a>
+                
+            </div>
+        </article>
+
+        <article class="project mix digital" data-order="13">
+            <div class="project__image">
+                <img src="./assets/digitalart8.jpeg" alt="project image">
+            </div>
+            <h5>Project One Title (Graphics design)</h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, error.
+            </p>
+            <div class="project__cta">
+                <a href="https://drive.google.com/file/d/1EoGLgfpUBheZqc0sIw-no17pK7XUxGlw/view?usp=sharing" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                <a href="https://drive.google.com/file/d/1EoGLgfpUBheZqc0sIw-no17pK7XUxGlw/view?usp=sharing" class="btn" target="_blank"><i class="uil uil-link"></i></a>
+                
+            </div>
+        </article>
+
+        <article class="project mix digital" data-order="14">
+            <div class="project__image">
+                <img src="./assets/digitalart9.jpeg" alt="project image">
+            </div>
+            <h5>Project One Title (Graphics design)</h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, error.
+            </p>
+            <div class="project__cta">
+                <a href="https://drive.google.com/file/d/1bTQ5iGg_184nlehIqHkv7m2U5nXBPNUI/view?usp=sharing" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                <a href="https://drive.google.com/file/d/1bTQ5iGg_184nlehIqHkv7m2U5nXBPNUI/view?usp=sharing" class="btn" target="_blank"><i class="uil uil-link"></i></a>
+                
+            </div>
+        </article>
+
+        <article class="project mix video" data-order="15">
+            <div class="project__image">
+                <img src="./assets/vid1.png" alt="project image">
+            </div>
+            <h5>Project One Title (Graphics design)</h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, error.
+            </p>
+            <div class="project__cta">
+                <a href="https://drive.google.com/file/d/1F6ov8iCIdCELamnF0i1ZNwHUAZRrEo9A/view?usp=sharing" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                <a href="https://drive.google.com/file/d/1F6ov8iCIdCELamnF0i1ZNwHUAZRrEo9A/view?usp=sharing" class="btn" target="_blank"><i class="uil uil-link"></i></a>
+                
+            </div>
+        </article>
+
+        <article class="project mix video" data-order="16">
+            <div class="project__image">
+                <img src="./assets/vid2.png" alt="project image">
+            </div>
+            <h5>Project One Title (Graphics design)</h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, error.
+            </p>
+            <div class="project__cta">
+                <a href="https://drive.google.com/file/d/1FCv8jB95yt-HAhBXEMwELc0RGXWJNlnW/view?usp=sharing" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                <a href="https://drive.google.com/file/d/1FCv8jB95yt-HAhBXEMwELc0RGXWJNlnW/view?usp=sharing" class="btn" target="_blank"><i class="uil uil-link"></i></a>
+                
+            </div>
+        </article><article class="project mix video" data-order="17">
+            <div class="project__image">
+                <img src="./assets/vid3.png" alt="project image">
+            </div>
+            <h5>Project One Title (Graphics design)</h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, error.
+            </p>
+            <div class="project__cta">
+                <a href="https://drive.google.com/file/d/1xVme7k73pCKRmDIQt1frUpAj44Qa_NzB/view?usp=sharing" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                <a href="https://drive.google.com/file/d/1xVme7k73pCKRmDIQt1frUpAj44Qa_NzB/view?usp=sharing" class="btn" target="_blank"><i class="uil uil-link"></i></a>
+                
+            </div>
+        </article><article class="project mix video" data-order="18">
+            <div class="project__image">
+                <img src="./assets/vid4.png" alt="project image">
+            </div>
+            <h5>Project One Title (Graphics design)</h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, error.
+            </p>
+            <div class="project__cta">
+                <a href="https://drive.google.com/file/d/18wtIRrgA7sPI_ko6o7XKxlA7V0zrdaP2/view?usp=sharing" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                <a href="https://drive.google.com/file/d/18wtIRrgA7sPI_ko6o7XKxlA7V0zrdaP2/view?usp=sharing" class="btn" target="_blank"><i class="uil uil-link"></i></a>
+                
+            </div>
+        </article><article class="project mix video" data-order="19">
+            <div class="project__image">
+                <img src="./assets/vid5.png" alt="project image">
+            </div>
+            <h5>Project One Title (Graphics design)</h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, error.
+            </p>
+            <div class="project__cta">
+                <a href="https://drive.google.com/file/d/1uJeplFJVF23vu_QboSNjpoQZ-0NfP9IQ/view?usp=sharing" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                <a href="https://drive.google.com/file/d/1uJeplFJVF23vu_QboSNjpoQZ-0NfP9IQ/view?usp=sharing" class="btn" target="_blank"><i class="uil uil-link"></i></a>
+                
+            </div>
+        
+
+
+
     </div>
 </section>
 
@@ -263,7 +474,7 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quasi!
     </p>
     <menu class="container faqs__container">
-        <li class="faqs__item">
+        <li class="faqs__item" data-aos="fade-in" data-aos-delay="200">
             <div class="faqs__item-top">
                 <span class="faq__icon"><i class="uil uil-angle-down"></i></span>
                 <h5>What is your hourly rate?</h5>
@@ -274,7 +485,7 @@
             </div>
         </li>
 
-         <li class="faqs__item">
+         <li class="faqs__item" data-aos="fade-in" data-aos-delay="200">
             <div class="faqs__item-top">
                 <span class="faq__icon"><i class="uil uil-angle-down"></i></span>
                 <h5>What is your hourly rate?</h5>
@@ -285,7 +496,7 @@
             </div>
         </li>
 
-         <li class="faqs__item">
+         <li class="faqs__item" data-aos="fade-in" data-aos-delay="400">
             <div class="faqs__item-top">
                 <span class="faq__icon"><i class="uil uil-angle-down"></i></span>
                 <h5>What is your hourly rate?</h5>
@@ -296,7 +507,7 @@
             </div>
         </li>
 
-         <li class="faqs__item">
+         <li class="faqs__item" data-aos="fade-in" data-aos-delay="400">
             <div class="faqs__item-top">
                 <span class="faq__icon"><i class="uil uil-angle-down"></i></span>
                 <h5>What is your hourly rate?</h5>
@@ -307,7 +518,7 @@
             </div>
         </li>
 
-         <li class="faqs__item">
+         <li class="faqs__item" data-aos="fade-in" data-aos-delay="600">
             <div class="faqs__item-top">
                 <span class="faq__icon"><i class="uil uil-angle-down"></i></span>
                 <h5>What is your hourly rate?</h5>
@@ -318,7 +529,7 @@
             </div>
         </li>
 
-         <li class="faqs__item">
+         <li class="faqs__item" data-aos="fade-in" data-aos-delay="600">
             <div class="faqs__item-top">
                 <span class="faq__icon"><i class="uil uil-angle-down"></i></span>
                 <h5>What is your hourly rate?</h5>
@@ -333,7 +544,7 @@
 
 <!--==========================CONTACT===============================-->
 <section id="contact">
-    <div class="container contact__container">
+    <div class="container contact__container" data-aos="fade-up" data-aos-delay="200">
         <menu class="contact__options">
             <a href="mailto:corneliusaguonye@gmail.com" class="contact__option" target="_blank">
                 <i class="uil uil-envelope"></i>
@@ -359,6 +570,13 @@
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 <script src="./mix/dist/mixitup.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({duration: 2000, offset: 80});
+  </script>
+
 <script src="./index.js"></script>
+
+
 </body>
 </html>

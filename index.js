@@ -62,7 +62,7 @@ resumeRight.innerHTML = experienceContent;
 //education
 const educationBtn = document.querySelector('.education__btn');
 const educationContent = `<h4>Education</h4>
-                        <p>loremmmemmdmmdmdmdnncjjnvnvfuvujfbhrygfrbhgb</p>
+                        
                         <ul>
                             <li>
                                 <h5>College Education</h5>
@@ -94,7 +94,7 @@ const educationContent = `<h4>Education</h4>
 
 educationBtn.addEventListener('click', () => {
     resumeRight.innerHTML = educationContent;
-    resumeRight.classList.add('education')
+    resumeRight.className ='resume__right education'
     educationBtn.classList.add('primary')
       //remove classes from other buttons
     aboutBtn.classList.remove('primary')
@@ -255,4 +255,16 @@ faqs.forEach(faq => {
 const themeToggler = document.querySelector('.nav__theme-btn');
 themeToggler.addEventListener('click', () => {
     document.body.classList.toggle('dark-theme-variables')
+
+    if(document.body.classList == ''){
+        themeToggler.innerHTML = `<i class="uil uil-moon"></i>`
+        window.localStorage.setItem('portfolio-theme', '')
+    } else {
+        themeToggler.innerHTML = `<i class="uil uil-sun"></i>`
+        window.localStorage.setItem('portfolio-theme', 'dark-theme-variables')
+    }
 })
+
+// use local storage to keep theme selected even when user refreshes the page
+const bodyClass = window.localStorage.getItem('portfolio-theme')
+document.body.className = bodyClass;
