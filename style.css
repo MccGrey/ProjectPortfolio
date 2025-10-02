@@ -458,3 +458,46 @@ header {
     font-size: 1.3rem;
     padding: .6rem 1rem;
 }
+
+
+/* ====================swiper js testimonials============================ */
+.swiper-wrapper {
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.swiper-slide {
+    background: transparent;
+    border: .5rem solid var(--color-gray-0);
+    cursor: default;
+    transition: var(--transition);
+}
+
+.swiper-slide:hover {
+    background: var(--color-gray-0);
+}
+
+.swiper-slide figcaption {
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1.2rem;
+}
+
+.swiper__client {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    background: var(--color-gray-0);
+    padding: 1.5rem;
+}
+
+.swiper__client-avatar {
+    width: 2.5rem;
+    aspect-ratio: 1/1;
+    border-radius: .6rem;
+    overflow: hidden;
+}
+
+.swiper-pagination-bullet {
+    background: var(--color-primary);
+}

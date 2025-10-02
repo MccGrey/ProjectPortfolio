@@ -199,3 +199,29 @@ let mixer = mixitup(containerEl, {
 });
 
 mixer.filter('*')
+
+
+
+//========================SWIPER JS========================
+
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+  loop: true,
+  slidePerView: 1,
+  spaceBetween: 30,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  breakpoints: {
+    600: {
+      slidesPerView: 2,
+    }, 1024: {
+      slidesPerView: 3,
+    }
+  }
+
+});
