@@ -61,33 +61,26 @@ resumeRight.innerHTML = experienceContent;
 
 //education
 const educationBtn = document.querySelector('.education__btn');
-const educationContent = `<h4>Education</h4>
+const educationContent = `<h4>Certication</h4>
                         
                         <ul>
                             <li>
-                                <h5>College Education</h5>
-                                <p>loremmnjdbdlorem jklorenme kjfjfjfnbfjfjbhhchbcbfhvfhfvnvn vnvnbv 
-                                nfufbfyhfb 
+                                <h5>Udemy certificate</h5>
+                                <p>Certificate in graphic design, video editing and illustration
                                 </p>
                             </li>
                             <li>
-                                <h5>College Education</h5>
-                                <p>loremmnjdbdlorem jklorenme kjfjfjfnbfjfjbhhchbcbfhvfhfvnvn vnvnbv 
-                                nfufbfyhfb 
+                                <h5>Jobberman Certificate</h5>
+                                <p>Certificate in graphics design and social media management
                                 </p>
                             </li>
+
                             <li>
-                                <h5>College Education</h5>
-                                <p>loremmnjdbdlorem jklorenme kjfjfjfnbfjfjbhhchbcbfhvfhfvnvn vnvnbv 
-                                nfufbfyhfb 
+                                <h5>A.B.U Zaria</h5>
+                                <p>Diploma in graphics design and digital art
                                 </p>
                             </li>
-                            <li>
-                                <h5>College Education</h5>
-                                <p>loremmnjdbdlorem jklorenme kjfjfjfnbfjfjbhhchbcbfhvfhfvnvn vnvnbv 
-                                nfufbfyhfb 
-                                </p>
-                            </li>
+                           
                         </ul>
 
 `
@@ -106,7 +99,7 @@ educationBtn.addEventListener('click', () => {
 //skills
 
 const skillsContent = `<h4>Skills</h4>
-                    <p>lorem menfknjf jnvnjjnhv jvbjjbuvikd d</p>
+                    <p>These are the softwares I use for most of my projects</p>
                     <ul>
                         <li><img src="./assets/afterEffect.jpg" alt="aftereffect" ></li>
                         <li><img src="./assets/CapCut.jpg" alt="capcut" ></li>
@@ -131,7 +124,7 @@ skillsBtn.addEventListener('click', () => {
 //about me
 
 const aboutContent = `<h4>About me</h4>
-                        <p>lorem fkijfif kfikijffhf fjdjfuuhjsd jfchfhu sjbhdgyudauhsijdjofj fjfbhfhubjjnf 
+                        <p> Information about me and how to reach me.
 
                         </p>
                         <ul>
