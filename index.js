@@ -22,23 +22,23 @@ const experienceContent = `<h4>Experience</h4>
             </p>
             <ul>
                 <li>
-                    <h6>2024 - 2025</h6>
-                    <h5>Full-Time</h5>
+                    <h6>Graphics design</h6>
+                    <h5>Contract</h5>
                     <p>Uncle 5 Grills</p>
                 </li>
                 <li>
-                    <h6>2024 - 2024</h6>
+                    <h6>Graphics design & video editing</h6>
                     <h5>Contract</h5>
                     <p>Bluske Entertainment</p>
                 </li>
                 
                 <li>
-                    <h6>2024 - 2024</h6>
+                    <h6>Motion design & Illustrations</h6>
                     <h5>Contract</h5>
                     <p>The Oranje Media</p>
                 </li>
                 <li>
-                    <h6>2023 - 2024</h6>
+                    <h6>Digital arts</h6>
                     <h5>Contract</h5>
                     <p>Social Media Ads</p>
                 </li>
