@@ -18,7 +18,7 @@ floatingNavs.forEach(nav => {
 const resumeRight = document.querySelector('.resume__right')
 const experienceContent = `<h4>Experience</h4>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quia!
+                These are some of the companies I've worked with in the past years.
             </p>
             <ul>
                 <li>
