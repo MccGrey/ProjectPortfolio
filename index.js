@@ -61,7 +61,7 @@ resumeRight.innerHTML = experienceContent;
 
 //education
 const educationBtn = document.querySelector('.education__btn');
-const educationContent = `<h4>Certication</h4>
+const educationContent = `<h4>Certification</h4>
                         
                         <ul>
                             <li>
