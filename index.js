@@ -64,6 +64,12 @@ const educationBtn = document.querySelector('.education__btn');
 const educationContent = `<h4>Certification</h4>
                         
                         <ul>
+
+                        <li>
+                                <h5>Edo University Iyamho </h5>
+                                <p>B.Sc. in Computer science, UI/UX, Frontend development
+                                </p>
+                            </li>
                             <li>
                                 <h5>Udemy certificate</h5>
                                 <p>Certificate in graphic design, video editing and illustration
