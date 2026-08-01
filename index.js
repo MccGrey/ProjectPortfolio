@@ -22,6 +22,11 @@ const experienceContent = `<h4>Experience</h4>
             </p>
             <ul>
                 <li>
+                    <h6>Video editor | visual storyteller</h6>
+                    <h5>Contract</h5>
+                    <p>Jet ceramics ltd.</p>
+                </li>
+                <li>
                     <h6>Graphics design</h6>
                     <h5>Contract</h5>
                     <p>Uncle 5 Grills</p>
