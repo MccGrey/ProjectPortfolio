@@ -148,7 +148,7 @@ const aboutContent = `<h4>About me</h4>
 
                             <li>
                             <h6>Experience:</h6>
-                            <h5>5+ years</h5>
+                            <h5>7+ years</h5>
                             </li>
 
                             <li>
@@ -162,7 +162,7 @@ const aboutContent = `<h4>About me</h4>
                             </li>
 
                             <li>
-                            <h6>Freelance & Collabs:</h6>
+                            <h6>Full-time & Freelance:</h6>
                             <h5>Available</h5>
                             </li>
 
@@ -173,7 +173,7 @@ const aboutContent = `<h4>About me</h4>
 
                             <li>
                             <h6>Phone:</h6>
-                            <h5>+2348121299552</h5>
+                            <h5>+234812 129 9552 <br> +234813 079 1071 </h5>
                             </li>
 
                             <li>
